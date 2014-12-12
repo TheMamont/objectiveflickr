@@ -51,7 +51,7 @@ NSString *const LFHTTPRequestPOSTMethod = @"POST";
 // internal defaults
 NSString *const LFHRDefaultUserAgent = nil;
 const size_t LFHTTPRequestDefaultReadBufferSize = 16384;
-const NSTimeInterval LFHTTPRequestDefaultTrackerFireInterval = 1.0;
+const NSTimeInterval LFHTTPRequestDefaultTrackerFireInterval = 0.05;
 
 
 void LFHRReadStreamClientCallBack(CFReadStreamRef stream, CFStreamEventType eventType, void *clientCallBackInfo);
