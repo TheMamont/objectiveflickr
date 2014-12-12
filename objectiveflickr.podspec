@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/lukhnos/objectiveflickr.git', :tag => '2.0.4' }
   s.platform = :ios  
   s.source_files = 'Source/*.{h,m}' , 'LFWebAPIKit/*.{h,m}'
+  s.compiler_flags = '-fno-objc-arc'
   s.resources = 'BridgeSupport'
   s.frameworks = 'SystemConfiguration', 'CFNetwork'
 
